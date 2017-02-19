@@ -6,7 +6,7 @@
 
 遂用回 `Hexo` 并启用了 [`Even`](https://github.com/ahonn/hexo-theme-even)
 
-简单讨喜，重写了样式，夹带一点私活。
+简单讨喜，重写了样式，夹带一点私货。
 
 最终完成此模板。
 
