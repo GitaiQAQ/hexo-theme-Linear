@@ -1,5 +1,6 @@
 # navbar
 navbar:
+  Wiki: https://wiki.gitai.me
   Archives: /archives/
   Tags: /tags/
   Tools: /tools/
@@ -9,6 +10,7 @@ navbar:
 since: 2011
 
 # site
+logo: /logo.png
 description: A simple theme for Hexo. 
 language: en
 
@@ -38,8 +40,8 @@ sidebar:
 comments:
   post: true
   about: true
-  #duoshuo_username:  yumemor
-  #disqus_username: yumemor
+  #duoshuo_shortname:  yumemor
+  disqus_shortname: gitaisblog
 
 # accounts support weibo/github/zhihu/twitter/douban/G+/facebook 
 # Social links
@@ -55,5 +57,6 @@ social:
   rss: /atom.xml
 
 analytics:
+  cnzz: true
   baidu: false
   google: false

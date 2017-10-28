@@ -23,7 +23,15 @@ if (config.social || theme.social) && is_home()
     != "Theme by " 
     
     a(href="https://github.com/GitaiQAQ/hexo-theme-plain") 
-      != "Linear"
+      != "Plain"
+
+  p.host
+    !="Hosted by "
+
+    a(href="https://pages.coding.me") 
+      != "Coding Pages"
+
+  +analytics()
     
 //- Back to top
 label#back2top

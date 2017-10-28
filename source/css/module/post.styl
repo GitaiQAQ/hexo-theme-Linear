@@ -41,6 +41,9 @@
         .post-from::before
             content:" | ";
     .post-content
+        /* p
+            overflow-x: scroll
+        */
         h2
             font-size:24px
         h3
@@ -66,6 +69,10 @@
             display:inherit;
             max-width:100%;
             margin:auto
+        figure
+        	padding: 1em 0;
+        	caption
+        		text-align: center;
         ul
             display:block;
             max-width:100%;
@@ -75,7 +82,7 @@
                 margin:1em auto
     .post-content-preview
         font-size:14px;
-        font-style:italic;
+        line-height: 1.25;
         color:#a3a3a3
         a
             color:$ax-primary-color-light
