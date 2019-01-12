@@ -14,7 +14,7 @@
                 $body.scrollTop($body.scrollTop() - 1);
  
                 e.preventDefault();
-            })
+            });
  
             $(window).keydown(function (event) {
                 if (event.keyCode == 27) {
@@ -29,7 +29,7 @@
                     location.href = 'https://www.google.com/search?q=site:yumemor.com ' + $(this).val();
                     return false;
                 }
-            })
+            });
         }
     };
  

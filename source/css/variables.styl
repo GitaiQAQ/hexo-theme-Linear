@@ -48,9 +48,9 @@ $ax-border-radius-default = 2px
 // ============================================================================
 $ax-font-color = ax-color("black-alpha-87")
 $ax-font-family = Lato, "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS"
-$ax-font-size = 14px
+$ax-font-size = 16px
 $ax-font-weight = 400
-$ax-line-height = 1.429
+$ax-line-height = 30px
 $ax-font-smoothing = false
 // ============================================================================
 // BUTTONS
@@ -75,7 +75,7 @@ $ax-btn-spacing-horizontal = 8px
 // ----------------------------------------------------------------------------
 $ax-btn-default-bg-color = ax-color("white")
 $ax-btn-default-font-color = $ax-font-color
-$ax-btn-default-ripple-color = darken(ax-color("white"), 35%)
+// $ax-btn-default-ripple-color = darken(ax-color("white"), 35%)
 $ax-btn-primary-bg-color = $ax-primary-color
 $ax-btn-primary-font-color = ax-color("white")
 $ax-btn-primary-ripple-color = ax-color("white")
@@ -89,8 +89,8 @@ $ax-btn-accent-bg-color = $ax-accent-color
 $ax-btn-accent-font-color = ax-color("white")
 $ax-btn-accent-ripple-color = ax-color("white")
 $ax-btn-flat-bg-color = transparent
-$ax-btn-flat-bg-color-hover = darken(ax-color("white"), 5%)
-$ax-btn-flat-ripple-color = darken(ax-color("white"), 35%)
+// $ax-btn-flat-bg-color-hover = darken(ax-color("white"), 5%)
+// $ax-btn-flat-ripple-color = darken(ax-color("white"), 35%)
 // ============================================================================
 // FORMS
 // ============================================================================
@@ -126,7 +126,7 @@ $ax-dropdown-bg-color = ax-color("white")
 $ax-dropdown-border-color = $ax-divider-color
 $ax-dropdown-border-radius = $ax-border-radius-default
 $ax-dropdown-link-font-color = $ax-font-color
-$ax-dropdown-link-font-color-hover = darken($ax-dropdown-link-font-color, 5%)
+// $ax-dropdown-link-font-color-hover = darken($ax-dropdown-link-font-color, 5%)
 $ax-dropdown-link-font-color-active = $ax-accent-color
 $ax-dropdown-link-font-color-disabled = ax-color("grey", "200")
 $ax-dropdown-link-bg-color-hover = ax-color("grey", "200")
@@ -157,6 +157,6 @@ $ax-caret-width = 4px
 // ============================================================================
 // OVERLAY
 // ============================================================================
-$ax-overlay-bg-color = rgba(ax-color("black"), 0.2)
+$ax-overlay-bg-color = rgba(black, 0.2)
 
 $ax-line-height-computed = floor($ax-font-size * $ax-line-height)
