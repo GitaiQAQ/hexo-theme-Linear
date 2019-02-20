@@ -4,6 +4,11 @@ if (config.social || theme.social) && is_home()
     for link, name in (config.social || theme.social)
       a.iconfont(class="icon-#{name}" href=url_for(link)) 
 
+
+p.links
+  a(href="https://www.cnblogs.com/coco1s") ChokCoco
+  a(href="https://andytimes.xyz") Memory-copy
+
 //- Copyright
 .copyright
   - var currentDate = new Date()
@@ -25,11 +30,11 @@ if (config.social || theme.social) && is_home()
     a(href="//github.com/GitaiQAQ/hexo-theme-plain") 
       != "Plain"
 
-  p.host
-    !="Hosted by "
+  //p.host
+    //!="Hosted by "
 
-    a(href="//pages.coding.me") 
-      != "Coding Pages"
+    //a(href="//pages.coding.me") 
+      //!= "Coding Pages"
 
   +analytics()
     

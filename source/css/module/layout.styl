@@ -162,8 +162,8 @@ footer
         text-align: center;
         .iconfont
             display: inline-block;
-            margin-right: 10px;
-            font-size: 30px;
+            margin-right: 0.5em;
+            font-size: 3em;
 
             &:hover
                 color: $ax-primary-color;
@@ -195,3 +195,14 @@ footer
         bottom: 20px;
         z-index: 10;
         cursor: pointer;
+        background: #dfdfdf;
+        padding: 1em;
+        border-radius: 10px;
+
+a[title="站长统计"] {
+  display: none;
+}
+
+.links > a + a:before {
+  content: " | ";
+}
